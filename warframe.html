@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warframe</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+
+    <style>
+      
+ p{
+   padding-right: 100px;
+ }
+
+tr:nth-child(even){
+        color:#F5F5F5;
+      }
+      tr:nth-child(odd){
+        color:#F5F5F559;
+      }
+   </style>
+   
+</head>
+
+
+<body  style="background-color: #121212;">
+
+    <div style=" width: 100%; position: fixed;  z-index: 1;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+            <div class="container-fluid" style="width: 10%;" >
+              <a class="navbar-brand" href="index.html">RRA</a>
+            </div>
+                <div class="navbar-nav justify-content-start" style="width: 80%;">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="products.html">Games</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="login&signup.html">Login</a></li>
+                      <li><a class="dropdown-item" href="login&signup.html">Sign Up</a></li>
+                    </ul>
+                  </li>
+                </div>
+             
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+                  </form>
+          </nav>
+    </div>
+
+
+    <div class="prod_imges">
+
+
+        <div class="w3-content w3-display-container" style="width: 100%;">
+            <video class="mySlides" controls  src="warframe/warvid.mkv" style="width: 100%;"></video>
+            <img class="mySlides" src="warframe/w8.jpg" style="width:100%">
+            <img class="mySlides" src="warframe/w9.jpg" style="width:100%">
+            <img class="mySlides" src="warframe/www.jpg" style="width:100%">
+           
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+
+           
+    <div style="margin-left: 100px; margin-bottom: 50px;  ">
+    <table>
+        <tr>
+          <td style="width : 20%"><div class="ico">
+            <img style="width: 100%; height: 100%;" src="warframe/warframe logo.png" alt="fortnite title">
+        </div></td>
+          <td style="vertical-align: top; width: 80%;"><div style="color: aliceblue; text-align: left; font: 20px Brutal, sans-serif ; padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+           Warring factions have brought the Origin System to the brink of destruction. Join the Tenno and defend an ever-expanding universe. Master your Warframe, build your Arsenal and become an unstoppable force in this genre-defining looter-shooter.
+          </div></td>
+          <td style="width:300px; padding-right: 200px;">
+            <button type="button" class="btn btn-warning" style="width: 100px; height: 50px;">Buy Now</button>
+          </td>
+        </tr>
+      </table>
+    
+    </div>
+
+    <div style="width: 100%; margin-left: 100px; color: aliceblue; height: 100%;">
+      <h2>About Warframe</h2>
+    </div>
+    <div style="width: 100%;  height: 170px; padding-top: 22px; ">
+
+    <div style="width: 90%; margin-left: 90px; margin-right: 70px;">
+        <table class="about_inf" style="width: 100%; text-align: left;">
+          <tr><td>Developer</td><td>Publisher</td><td> Release Date</td></tr>
+          <tr><td>Digital Extremes</td><td>Digital Extremes</td><td>2020</td></tr>
+          <tr><td>Tags</td><td>Rating</td><td>Platform</td></tr>
+          <tr><td>Action,Co-op,Shooter</td><td>_</td><td><i class="fa fa-windows"></td></tr>
+        </table>
+      </div>
+    
+    </div>
+    <br>
+<div style="width: 100%;  margin-left: 100px; margin-right: 50px;">
+  <p><span style="color:#E5E5E5;font-weight:bold; font-size: 22px">Warframe</span></p>
+  <br>
+  <p style="size: 13px; color: #878787;">
+  Fight alongside the Tenno in this fast-paced, third-person co-op. Loot up, load out and carve your own path through the sprawling Origin System
+  </p>
+  
+</div>
+<br>
+
+<br>
+   <div style="width: 100%;  margin-left: 100px; color: aliceblue; height: 100%;">
+        <h2>Specifications</h2><br><br>
+    </div>
+    <div style="width: 100%;  height: 100%; padding-top: 22px; ">
+
+    <div style="width: 50%;  margin-right: 100px; background-color:#262626;margin-left: 100px; border-radius: 15px;">
+      <table id="abc" class="about_inf" style="width: 100%; text-align: left; font-size: 10px;">
+          <tr><td>Minimum</td><td>Recommended</td>
+          <tr><td> OS</td><td> OS</td>
+          <tr><td>Windows 7 64-Bit (32-bit not supported)</td><td> Windows 7 64-Bit (32-bit not supported)</td>
+          <tr><td> Processor</td><td>Processor</td></tr>
+           <tr><td>Intel Core 2 Duo e6400 or AMD Athlon x64 4000+ (~2.2Ghz dual core CPU)</td><td>Intel Core 2 Duo e6400 or AMD Athlon x64 4000+ (~2.2Ghz dual core CPU)</td>
+          <tr><td> Memory</td><td> Memory</td>
+            <tr><td>4 GB System RAM </td><td>4 GB System RAM</td>
+          <tr><td>Storage</td><td>Storage</td>
+            <tr><td>35 GB available HD space</td><td>35 GB available HD space</td>
+               <tr><td>Direct X</td><td>Direct X</td>
+            <tr><td>DirectX 11+ capable Graphics Card</td><td>DirectX 11+ capable Graphics Card</td>
+                  <tr><td>Other</td><td></td>
+            <tr><td>Broadband Internet Connection Required</td><td></td>
+            </tr>
+             
+
+                   <tr><td>Logins</td><td></td>
+            <tr><td>Requires Epic Games account</td><td></td>
+            </tr>
+                   <tr><td>Languages Supported</td><td></td>
+            <tr><td>Audio: EnglishText: English, French, German, Korean, Polish, Portuguese - Brazil, Russian, Turkish, Japanese, Italian, Chinese - Simplified, Chinese - Traditional</td><td></td>
+            </tr>
+        </table>
+      </div>
+    
+    </div>
+
+
+
+<br><br>
+
+    <div class="footerD">
+        <footer class="footerD">
+          
+          <div style="width: 100%; position: relative;padding-top: 30px;">
+            <div class="social-menu">
+              <ul>
+                <li><a href="" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href="" target="blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+  
+            <div style="width: 100%; height: 30px; padding-top: 50px;">
+              <marquee behavior="scroll" direction="right"><p class="inf">&copy; All rights reserved to RRA Productions</p></marquee>
+              </div>
+          </div>
+        </footer>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+
+    <style>
+      
+      p{
+        padding-right: 100px;
+      }
+
+      tr:nth-child(even){
+              color:#F5F5F5;
+            }
+      tr:nth-child(odd){
+        color:#F5F5F559;
+      }
+
+  .animation {
+  background-color:rgb(38,38,38);
+  animation-name: AG;
+  animation-duration: 4s;
+}
+
+@keyframes AG {
+  from {background-color:rgb(38,38,38);}
+  to {background-color: #1A072F;}
+}
+
+
+input[type=text] {
+          width: 100%;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          background-color: white;
+          padding-left: 10px;
+        }
+   </style>
+   
+</head>
+
+
+<body  style=" background-image: linear-gradient(to bottom right,#121212, #1A072F);">
+
+    <div style=" width: 100%; position: fixed;  z-index: 1;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+            <div class="container-fluid" style="width: 10%;" >
+              <a class="navbar-brand" href="index.html">RRA</a>
+            </div>
+                <div class="navbar-nav justify-content-start" style="width: 80%;">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="products.html">Games</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="login&signup.html">Login</a></li>
+                      <li><a class="dropdown-item" href="login&signup.html">Sign Up</a></li>
+                    </ul>
+                  </li>
+                </div>
+             
+                <form class="d-flex">
+                  <input type="text" name="search" placeholder="Search..">
+                    <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+                  </form>
+          </nav>
+    </div>
+
+
+    <div class="prod_imges">
+
+
+        <div class="w3-content w3-display-container" style="width: 100%;">
+            <video class="mySlides" controls  src="rocket/video.mp4" style="width: 100%;"></video>
+            <img class="mySlides" src="rocket/r4.jpg" style="width:100%">
+            <img class="mySlides" src="rocket/r2.jpg" style="width:100%">
+            <img class="mySlides" src="rocket/r3.jpg" style="width:100%">
+           
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+
+           
+    <div style="margin-left: 100px; margin-bottom: 50px;  ">
+    <table>
+        <tr>
+          <td style="width : 20%"><div class="ico animation">
+            <img style="width: 300px; height: 168px;" src="rocket/rocket logo.webp" alt="Rocket title">
+        </div></td>
+          <td style="vertical-align: top; width: 80%;"><div style="color: aliceblue; text-align: left; font: 20px Brutal, sans-serif ; padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+            Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition.
+          </div></td>
+          <td style="width:300px; padding-right: 200px;">
+            <button type="button" class="btn btn-warning" style="width: 100px; height: 50px;">Buy Now</button>
+          </td>
+        </tr>
+      </table>
+    
+    </div>
+
+    <div style="width: 100%; margin-left: 100px; color: aliceblue; height: 100%;">
+      <h2>About Rocket League</h2>
+    </div>
+    <div style="width: 100%;  height: 170px; padding-top: 22px; ">
+
+    <div style="width: 90%; margin-left: 90px; margin-right: 70px;">
+        <table class="about_inf" style="width: 100%; text-align: left;">
+          <tr><td>Developer</td><td>Publisher</td><td> Release Date</td></tr>
+          <tr><td>Psyonix LLC</td><td>Psyonix LLC</td><td>Sep 24, 2020</td></tr>
+          <tr><td>Tags</td><td>Rating</td><td>Platform</td></tr>
+          <tr><td>Co-opMultiplayerSingle Player</td><td>_</td><td><i class="fa fa-windows"></td></tr>
+        </table>
+      </div>
+    
+    </div>
+    <br>
+<div style="width: 100%;  margin-left: 100px; margin-right: 50px;">
+  <p><span style="color:#E5E5E5;font-weight:bold; font-size: 22px">Rocket League®</span></p>
+  <br>
+  <p style="size: 13px; color: #878787;">
+   Download and compete in the high-octane hybrid of arcade-style soccer and vehicular mayhem! customize your car, hit the field, and compete in one of the most critically acclaimed sports games of all time! Download and take your shot!
+  </p>
+
+  <p style="size: 13px; color: #878787;">Hit the field by yourself or with friends in 1v1, 2v2, and 3v3 Online Modes, or enjoy Extra Modes like Rumble, Snow Day, or Hoops. Unlock items in Rocket Pass, climb the Competitive Ranks, compete in Competitive Tournaments, complete Challenges, enjoy cross-platform progression and more! The field is waiting. Take your shot</p>
+  
+</div>
+<br>
+
+<br>
+   <div style="width: 100%;  margin-left: 100px; color: aliceblue; height: 100%;">
+        <h2>Specifications</h2><br><br>
+    </div>
+    <div style="width: 100%;  height: 100%; padding-top: 22px; ">
+
+    <div style="width: 50%;  margin-right: 100px; background-color:#262626;margin-left: 100px; border-radius: 15px;">
+      <table id="abc" class="about_inf" style="width: 100%; text-align: left; font-size: 10px;">
+          <tr><td>Minimum</td><td>Recommended</td>
+          <tr><td> OS</td><td> OS</td>
+          <tr><td>Windows 7 (64 bit) or Newer (64 bit) Windows OS</td><td> Windows 7 (64 bit) or Newer (64 bit) Windows OS</td>
+          <tr><td> Processor</td><td> Processor</td></tr>
+           <tr><td>2.5 GHz Dual core</td><td>3.0+ GHz Quad core</td>
+          <tr><td> Memory</td><td> Memory</td>
+            <tr><td>4 GB </td><td>8 GB </td>
+          <tr><td>Storage</td><td>Storage</td>
+            <tr><td>20GB</td><td>20GB</td>
+               <tr><td>Direct X</td><td>Direct X</td>
+            <tr><td>DirectX 11</td><td>DirectX 11</td>
+                  <tr><td>Graphics</td><td>Graphics</td>
+            <tr><td>NVIDIA GeForce 760, AMD Radeon R7 270X, or better</td><td>NVIDIA GeForce GTX 1060, AMD Radeon RX 470, or better</td>
+            </tr>
+        </table>
+      </div>
+    
+    </div>
+
+
+
+<br><br>
+
+    <div class="footerD">
+        <footer class="footerD">
+          
+          <div style="width: 100%; position: relative;padding-top: 30px;">
+            <div class="social-menu">
+              <ul>
+                <li><a href="" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href="" target="blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+  
+            <div style="width: 100%; height: 30px; padding-top: 50px;">
+              <marquee behavior="scroll" direction="right"><p class="inf">&copy; All rights reserved to RRA Productions</p></marquee>
+              </div>
+          </div>
+        </footer>
+      </div>
+    
+</body>
+</html>

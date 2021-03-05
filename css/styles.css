@@ -1,0 +1,273 @@
+:root{
+    --Swihte: rgb(245,245,245);
+    --Nice: #F5F5F559;
+}
+
+body{
+    background-color: #121212;
+}
+.title_desc{
+
+    
+    color: #F5F5F5;
+    font: 16px Brutal, sans-serif ;
+    font-weight: bold;
+}
+.imgt img{
+    border-radius: 10px;
+}
+
+.game_description{
+    margin-left: 420px;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+.game_description p{
+    /* color: var(--Nice); */
+    font: 16px Brutal, sans-serif ;
+}
+.prod_imges{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  
+}
+.prod_imges .mySlides{
+    border-radius: 20px;
+  
+} 
+.product_conatiner{
+width: 80%;
+height: 100%;
+float: left;
+margin-top: 50px;
+}
+.list-group-item{
+    background-color: #121212;
+    color: var(--Nice);
+    border-bottom: unset;
+}
+
+.list-group a{
+    color: var(--Nice);
+    font: 16px Brutal, sans-serif ;
+}
+.title a{
+
+    padding-bottom: 15px;
+    border: unset;
+}
+
+.ico{
+
+   
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38,38,38);
+    border-radius: 4px;
+
+}
+text{
+
+    color: whitesmoke;
+    font: 20px Brutal, sans-serif ;
+    
+}
+.about_inf td{
+    /* color: var(--Nice); */
+    font: 20px Brutal, sans-serif ;
+    padding-bottom: 10px;
+}
+
+#abc td{
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.spnanakan{
+    color: whitesmoke;
+    font: 20px Brutal, sans-serif ;
+}
+
+.product_conatiner .prod_img img{
+    border-radius: 10px;
+}
+.product_conatiner .prod_img td{
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.listinfo{
+    color: var(--Nice);
+    font: 14px Brutal, sans-serif ;
+}
+.gameTite{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    min-height: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    justify-content: center;
+}
+.h2titles{
+    display: flex;
+    align-items: center;
+    color: var(--Swihte);
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: center;
+    padding: 5px;
+}
+
+ul.inf:nth-child(2){
+    color: #F5F5F599;
+}
+
+th{
+    font-size: 25px; 
+    padding: 5px;
+    line-height: 1.4;
+    color: var(--Nice);
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.sectionEd{
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scrollbar-width: none;
+    -moz-scrollbar-width: none;
+    -ms-scrollbar-width: none;
+    scrollbar-width: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: visible;
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.gamesContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+ img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+ }
+
+ td{
+     padding: 5px;
+ }
+ .inf{
+
+    padding-top: 5px;
+    color: var(--Nice);
+    font: 16px Brutal, sans-serif;
+    text-align: left;
+    list-style-type: none;
+    padding-left: 5px;
+
+ }
+.prod_img{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.poster{
+    margin: 100px 100px 100px 100px; 
+    position: relative; 
+    display: flex;
+}
+
+.poster_disc{
+    position: absolute;
+    width: 30%; padding-top: 150px;
+    padding-left: 30px;
+    
+}
+#rogue{
+font-size: 22px;
+}
+
+body {
+    background-color: #d8d8d8;
+}
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 40px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+ 
+#abc td{
+    width: 50%;
+}
+
+
+.footerD{
+
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    color: var(--Nice);
+    clear: both;
+    
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+
+    <style>
+      
+ p{
+   padding-right: 100px;
+ }
+
+tr:nth-child(even){
+        color:#F5F5F5;
+      }
+      tr:nth-child(odd){
+        color:#F5F5F559;
+      }
+   </style>
+   
+</head>
+
+
+<body  style="background-color: #121212;">
+
+    <div style=" width: 100%; position: fixed;  z-index: 1;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+            <div class="container-fluid" style="width: 10%;" >
+              <a class="navbar-brand" href="index.html">RRA</a>
+            </div>
+                <div class="navbar-nav justify-content-start" style="width: 80%;">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="products.html">Games</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="login&signup.html">Login</a></li>
+                      <li><a class="dropdown-item" href="login&signup.html">Sign Up</a></li>
+                    </ul>
+                  </li>
+                </div>
+             
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+                  </form>
+          </nav>
+    </div>
+
+
+    <div class="prod_imges">
+
+
+        <div class="w3-content w3-display-container" style="width: 100%;">
+            <video class="mySlides" controls  src="Fortnite/forvid.mp4" style="width: 100%;"></video>
+            <img class="mySlides" src="Fortnite/1.jpg" style="width:100%">
+            <img class="mySlides" src="Fortnite/2.jpg" style="width:100%">
+            <img class="mySlides" src="Fortnite/3.jpg" style="width:100%">
+            <img class="mySlides" src="Fortnite/4.jpg" style="width:100%">
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+
+           
+    <div style="margin-left: 100px; margin-bottom: 50px;  ">
+    <table>
+        <tr>
+          <td style="width : 20%"><div class="ico">
+            <img style="width: 100%;" src="Fortnite/fortnite logo.webp" alt="fortnite title">
+        </div></td>
+          <td style="vertical-align: top; width: 80%;"><div style="color: aliceblue; text-align: left; font: 20px Brutal, sans-serif ; padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+           The hunt is on in Fortnite Chapter 2 - Season 5: Zero Point. Join Agent Jones as he enlists the greatest Hunters across Realities like The Mandalorian to stop others from escaping the loop.
+          </div></td>
+          <td style="width:300px; padding-right: 200px;">
+            <button type="button" class="btn btn-warning" style="width: 100px; height: 50px;">Buy Now</button>
+          </td>
+        </tr>
+      </table>
+    
+    </div>
+
+    <div style="width: 100%; margin-left: 100px; color: aliceblue; height: 100%;">
+      <h2>About Fortnite</h2>
+    </div>
+    <div style="width: 100%;  height: 170px; padding-top: 22px; ">
+
+    <div style="width: 90%; margin-left: 90px; margin-right: 70px;">
+        <table class="about_inf" style="width: 100%; text-align: left;">
+          <tr><td>Developer</td><td>Publisher</td><td> Release Date</td></tr>
+          <tr><td>Epic Games</td><td>Epic Games</td><td>Jul 25, 2017</td></tr>
+          <tr><td>Tags</td><td>Rating</td><td>Platform</td></tr>
+          <tr><td>ShooterMultiplayerSingle Player</td><td>_</td><td><i class="fa fa-windows"></td></tr>
+        </table>
+      </div>
+    
+    </div>
+    <br>
+<div style="width: 100%;  margin-left: 100px; margin-right: 50px;">
+  <p><span style="color:#E5E5E5;font-weight:bold; font-size: 22px">Fortnite Chapter 2 Battle. Build. Create.</span></p>
+  <br>
+  <p style="size: 13px; color: #878787;">
+   Fortnite is the free, always evolving, multiplayer game where you and your friends battle to be the last one standing or collaborate to create your dream Fortnite world. Play both Battle Royale and Fortnite Creative for FREE. Download now and jump into the action. This download also gives you a path to purchase the Save the World co-op PvE campaign.
+  </p>
+  
+</div>
+<br>
+
+<br>
+<div style="width: 100%;  margin-left: 100px; margin-right: 50px;">
+  <p><span style="color:#E5E5E5;font-weight:bold; font-size: 22px">Fortnite Crew is the ultimate subscription offer for getting can’t-miss Fortnite content! Join for only $11.99 each month to get everything below:</span></p>
+  <br>
+  <p style="size: 13px; color: #878787;">
+    • Battle Pass Included for the full Season - As a member of the Fortnite Crew, you’ll always have access to the current season’s Battle Pass! <br><br><br>
+    • 1,000 V-Bucks Each Month - Fortnite Crew members will receive 1,000 V-Bucks every month. Spend it on your favorite Item Shop content! <br><br><br>
+    • Get A Monthly Crew Pack! - Get an exclusive Fortnite Crew Pack, an always-new Outfit Bundle that only Fortnite Crew members can get. <br><br><br>
+    Recurring fee charged monthly until cancelled. Cancel anytime.
+    <br><br><br>
+  </p>
+  
+</div>
+<br>
+
+<br>
+   <div style="width: 100%;  margin-left: 100px; color: aliceblue; height: 100%;">
+        <h2>Specifications</h2><br><br>
+    </div>
+    <div style="width: 100%;  height: 100%; padding-top: 22px; ">
+
+    <div style="width: 50%;  margin-right: 100px; background-color:#262626;margin-left: 100px; border-radius: 15px;">
+      <table id="abc" class="about_inf" style="width: 100%; text-align: left; font-size: 10px;">
+          <tr><td>Minimum</td><td>Recommended</td>
+          <tr><td> OS</td><td> OS</td>
+          <tr><td>Windows 7/8/10 64-bit</td><td> Windows 7/8/10 64-bit</td>
+          <tr><td> CPU</td><td>CPU</td></tr>
+           <tr><td>Core i3 3.3 GHz</td><td>Core i5 3.5 GHz</td>
+          <tr><td> Memory</td><td> Memory</td>
+            <tr><td>4 GB RAM </td><td>8 GB RAM </td>
+          <tr><td>GPU</td><td>GPU</td>
+            <tr><td>Intel HD 4000</td><td>Nvidia GTX 660 or AMD Radeon HD 7870 equivalent DX11 GPU</td>
+              <tr><td colspan="2">Languages Supported</td></tr>
+              <tr><td colspan="2">Englis,French,German,Italian,Japanese,Korean,Polish,Portuguese (Brazil),Russian,Spanish (Latin America, Spain)Turkish,Arabic</td></tr> 
+              
+        </table>
+      </div>
+    
+    </div>
+
+
+
+<br><br>
+
+    <div class="footerD">
+        <footer class="footerD">
+          
+          <div style="width: 100%; position: relative;padding-top: 30px;">
+            <div class="social-menu">
+              <ul>
+                <li><a href="" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href="" target="blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+  
+            <div style="width: 100%; height: 30px; padding-top: 50px;">
+              <marquee behavior="scroll" direction="right"><p class="inf">&copy; All rights reserved to RRA Productions</p></marquee>
+              </div>
+          </div>
+        </footer>
+      </div>
+    
+</body>
+</html>

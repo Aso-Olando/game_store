@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRA</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body style="background-color: #121212;">
+
+    <div style=" width: 100%; position: fixed;  z-index: 1;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+            <div class="container-fluid" style="width: 10%;" >
+              <a class="navbar-brand" href="#">RRA</a>
+            </div>
+                <div class="navbar-nav justify-content-start" style="width: 80%;">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="products.html">Games</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="login&signup.html">Login</a></li>
+                      <li><a class="dropdown-item" href="login&signup.html">Sign Up</a></li>
+                    </ul>
+                  </li>
+                </div>
+             
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+                  </form>
+          </nav>
+    </div>
+
+    <div  style="max-width:100%;">
+      <a href="Game_details.html">
+      <img class="mySlides w3-animate-opacity" src="images/slider3.jpg" style="width:100%">
+      </a>
+      <a href="Game_details.html">
+      <img class="mySlides w3-animate-opacity" src="images/slider4.jpg" style="width:100%">
+      </a>
+    </div>
+    
+    <script>
+      
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 3500); 
+    }
+    </script>
+    
+      <br><br>
+    <div class="prod_img">
+      <table>
+        <tr>
+          <th colspan="5" > New And Trending</th>
+        </tr>
+        <tr>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/borderlands_3.webp" alt="borderlands 3">
+          </td>
+          <td class="imgt" onclick="location.href='../grand.html';" style="cursor: pointer;">
+            <img src="images/gta_v.webp" alt="gta v">
+          </td>
+          <td class="imgt" onclick="location.href='../Red Dead Redemption 2.html';" style="cursor: pointer;">
+            <img src="images/RDR2.jpg" alt="rdr 2">
+          </td>
+          <td class="imgt" onclick="location.href='../rocket.html';" style="cursor: pointer;">
+            <img src="images/ROCKET_LEGUE.jpg" alt="rocket league">
+          </td>
+          <td class="imgt" onclick="location.href='../Assassins_Creed_Valhalla.html';" style="cursor: pointer;">
+            <img src="images/valhalla.webp" alt="asssassin's creed valhalla">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+            <ul class="inf">Borderlands 3</ul>
+            <ul class="inf">Gearbox Software | 2K</ul>
+            <ul class="inf">$59.99</ul>
+            </div>
+          </td>
+          <td>
+            <div onclick="location.href='../grand.html';" style="cursor: pointer;">
+            <ul class="inf">Grand Theft Auto V: Premium Edition</ul>
+            <ul class="inf">Rockstar Games</ul>
+            <ul class="inf">$29.99</ul>
+            </div></td>
+          <td>
+            <div onclick="location.href='../Red Dead Redemption 2.html';" style="cursor: pointer;">
+              <ul class="inf">Red Dead Redemption 2</ul>
+              <ul class="inf">Rockstar Games</ul>
+              <ul class="inf">$59.99</ul>
+              </div>
+          </td>
+          <td>
+            <div onclick="location.href='../rocket.html';" style="cursor: pointer;">
+              <ul class="inf">Rocket League®</ul>
+              <ul class="inf">Psyonix LLC</ul>
+              <ul class="inf">Free</ul>
+              </div>
+          </td>
+          <td>
+            <div onclick="location.href='../Assassins_Creed_Valhalla.html';" style="cursor: pointer;">
+              <ul class="inf">Assassin's Creed: Valhalla</ul>
+              <ul class="inf">Ubisoft Montreal | Ubisoft</ul>
+              <ul class="inf">$59.99</ul>
+              </div>
+          </td>
+        </tr>
+        
+      </table>
+      
+    </div>
+
+    <div class="poster">
+      <div>
+        <img src="images/no man's sky.jpg" alt=" no man's sky" style="border-radius: 20px;">
+      </div>
+      <div class="poster_disc">
+        <h1>No Man's Sky</h1>
+        <p><span style="font-weight: bolder;">Find your own destiny</span> <br>
+          Your voyage through No Man's Sky is up to you. Will you be a fighter, preying on the weak and taking their riches, or taking out pirates for their bounties? Power is yours if you upgrade your ship for speed and weaponry.</p>
+          <a class="btn btn-secondary" href="#" > Learn More</a>
+      </div>
+    </div>
+
+
+    <div class="prod_img">
+      <table>
+        <tr>
+          <th colspan="5" >Top free Picks</th>
+        </tr>
+        <tr>
+          <td class="imgt" onclick="location.href='../Fortnite.html';" style="cursor: pointer;">
+            <img src="images/fortnite.webp" alt="fortnite">
+          </td>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/hyper scape.webp" alt="hyper scape">
+          </td>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/paladins.jpg" alt="paladins">
+          </td>
+          <td class="imgt" onclick="location.href='../rocket.html';" style="cursor: pointer;">
+            <img src="images/ROCKET_LEGUE.jpg" alt="rocket league">
+          </td>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/dauntless.webp" alt="dauntless">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div onclick="location.href='../Fortnite.html';" style="cursor: pointer;">
+            <ul class="inf">Fortnite</ul>
+            <ul class="inf">Epic Games</ul>
+            <ul class="inf">Free</ul>
+            </div>
+          </td>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+            <ul class="inf">Hyper Scape™</ul>
+            <ul class="inf">Ubisoft Montreal | Ubisoft</ul>
+            <ul class="inf">Free</ul>
+            </div></td>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+              <ul class="inf">Paladins</ul>
+              <ul class="inf">Evil Mojo Games | Hi-Rez Studios</ul>
+              <ul class="inf">Free</ul>
+              </div>
+          </td>
+          <td>
+            <div onclick="location.href='../rocket.html';" style="cursor: pointer;">
+              <ul class="inf">Rocket League®</ul>
+              <ul class="inf">Psyonix LLC</ul>
+              <ul class="inf">Free</ul>
+              </div>
+          </td>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+              <ul class="inf">Dauntless</ul>
+              <ul class="inf">Phoenix Labs</ul>
+              <ul class="inf">Free</ul>
+              </div>
+          </td>
+        </tr>
+        
+      </table>
+      
+    </div>
+
+
+    <div class="prod_img">
+      <table>
+        <tr>
+          <th colspan="5" >Recently Updated</th>
+        </tr>
+        <tr>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/fuser.jpg" alt="fuser">
+          </td>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/phantom brigade.webp" alt="phantom brigade">
+          </td>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/neverwinter.webp" alt="newverwinter">
+          </td>
+          <td class="imgt" onclick="location.href='../warframe.html';" style="cursor: pointer;">
+            <img src="images/warframe.webp" alt="warframe">
+          </td>
+          <td class="imgt" onclick="location.href='#';" style="cursor: pointer;">
+            <img src="images/w2c 9.webp" alt="wrc 9">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+            <ul class="inf">Fuser</ul>
+            <ul class="inf">Harmonix Music Systems, Inc | NCSOFT</ul>
+            <ul class="inf">59.99$</ul>
+            </div>
+          </td>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+            <ul class="inf">Phantom Brigade</ul>
+            <ul class="inf">Brace Yourself Games</ul>
+            <ul class="inf">13.99$</ul>
+            </div></td>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+              <ul class="inf">Neverwinter</ul>
+              <ul class="inf">Cryptic Studios | Perfect World Entertainment Inc.</ul>
+              <ul class="inf">Free</ul>
+              </div>
+          </td>
+          <td>
+            <div onclick="location.href='../warframe.html';" style="cursor: pointer;">
+              <ul class="inf">Warframe</ul>
+              <ul class="inf">Digital Extremes | Digital Extremes</ul>
+              <ul class="inf">Free</ul>
+              </div>
+          </td>
+          <td>
+            <div onclick="location.href='#';" style="cursor: pointer;">
+              <ul class="inf">WRC 9 FIA World Rally Championship</ul>
+              <ul class="inf">KT Racing | Nacon</ul>
+              <ul class="inf">49.39$</ul>
+              </div>
+          </td>
+        </tr>
+        
+      </table>
+      
+    </div>
+
+    <div class="poster">
+      
+      <div>
+        <img src="images/rogC.jpg" alt="rouge company" style="border-radius: 20px;">
+      </div>
+      <div id="rogue" class="poster_disc">
+        <div style="padding-bottom: 30px;">
+        <img src="images/rouge_logo.png" alt="Rouge Company">
+        </div>
+        <p><span style="font-weight: bolder;">New Content Available</span> <br>
+          Rogue Company Season One starts now! Featuring a new Battle Pass and the newest Rogue, Kestrel!</p><br>
+          <a class="btn btn-primary btn-lg" href="#" >Play For Free</a>
+      </div>
+    </div>
+
+    <div class="footerD">
+      <footer class="footerD">
+        
+        <div style="width: 100%; position: relative;padding-top: 30px;">
+          <div class="social-menu">
+            <ul>
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa fa-youtube"></i></a></li>
+              <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+
+          <div style="width: 100%; height: 30px; padding-top: 50px;">
+            <marquee behavior="scroll" direction="right"><p class="inf">&copy; All rights reserved to RRA Productions</p></marquee>
+            </div>
+        </div>
+      </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dead Redemption 2</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+
+    <style>
+      
+ p{
+   padding-right: 100px;
+ }
+
+tr:nth-child(even){
+        color:#F5F5F5;
+      }
+      tr:nth-child(odd){
+        color:#F5F5F559;
+      }
+   </style>
+   
+</head>
+
+
+<body  style="background-color: #121212;">
+
+    <div style=" width: 100%; position: fixed;  z-index: 1;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+            <div class="container-fluid" style="width: 10%;" >
+              <a class="navbar-brand" href="index.html">RRA</a>
+            </div>
+                <div class="navbar-nav justify-content-start" style="width: 80%;">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="products.html">Games</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="login&signup.html">Login</a></li>
+                      <li><a class="dropdown-item" href="login&signup.html">Sign Up</a></li>
+                    </ul>
+                  </li>
+                </div>
+             
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+                  </form>
+          </nav>
+    </div>
+
+
+    <div class="prod_imges">
+
+
+        <div class="w3-content w3-display-container" style="width: 100%;">
+            <video class="mySlides" controls  src="red dead/red.mp4" style="width: 100%;"></video>
+            <img class="mySlides" src="red dead/1.jpg" style="width:100%">
+            <img class="mySlides" src="red dead/2.jpg" style="width:100%">
+            <img class="mySlides" src="red dead/3.jpg" style="width:100%">
+            <img class="mySlides" src="red dead/4.jpg" style="width:100%">
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+
+           
+    <div style="margin-left: 100px; margin-bottom: 50px;  ">
+    <table>
+        <tr>
+          <td style="width : 20%"><div class="ico">
+            <img style="width: 100%;" src="red dead/logo.png" 
+            alt="hitman title">
+        </div></td>
+          <td style="vertical-align: top; width: 80%;"><div style="color: aliceblue; text-align: left; font: 20px Brutal, sans-serif ; padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+            
+
+Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, Red Dead Redemption 2 is an epic tale of honor and loyalty at the dawn of the modern age. Includes Red Dead Redemption 2: Story Mode and Red Dead Online. 
+          </div></td>
+          <td style="width:300px; padding-right: 200px;">
+            <button type="button" class="btn btn-warning" style="width: 100px; height: 50px;">Buy Now</button>
+          </td>
+        </tr>
+      </table>
+    
+    </div>
+
+    <div style="width: 100%; margin-left: 100px; color: aliceblue; height: 100%;">
+      <h2>About Red Dead Redemption 2</h2>
+    </div>
+    <div style="width: 100%;  height: 170px; padding-top: 22px; ">
+
+    <div style="width: 90%; margin-left: 90px; margin-right: 70px;">
+        <table class="about_inf" style="width: 100%; text-align: left;">
+          <tr><td>Developer</td><td>Publisher</td><td> Release Date</td></tr>
+          <tr><td>Rockstar Games</td><td>Rockstar Games</td><td>Nov 5, 2019</td></tr>
+          <tr><td>Tags</td><td>Rating</td><td>Platform</td></tr>
+          <tr><td>Narration,Action,Open World</td><td>_</td><td><i class="fa fa-windows"></td></tr>
+        </table>
+      </div>
+    
+    </div>
+    <br>
+<div style="width: 100%;  margin-left: 100px; margin-right: 50px;">
+  <p><span style="color:#E5E5E5;font-weight:bold; font-size: 22px">Red Dead Redemption 2</span></p>
+  <br>
+  <p style="size: 13px; color: #878787;">Includes Red Dead Redemption 2: Story Mode and Red Dead Online </p>
+
+  <p style="size: 13px; color: #878787;"> Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, Red Dead Redemption 2 is an epic tale of honor and loyalty at the dawn of the modern age.
+</p>
+
+  <p style="size: 13px; color: #878787;"> America, 1899. Arthur Morgan and the Van der Linde gang are outlaws on the run. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.
+</p>
+
+  <p style="size: 13px; color: #878787;"> Red Dead Redemption 2 also includes the shared living world of Red Dead Online – forge your own path as you battle lawmen, outlaw gangs and ferocious wild animals to build a life on the American frontier. Build a camp, ride solo or form a posse and explore everything from the snowy mountains in the North to the swamps of the South, from remote outposts to busy farms and bustling towns. Chase down bounties, hunt, fish and trade, search for exotic treasures, run your own underground Moonshine distillery, or become a Naturalist to learn the secrets of the animal kingdom and much more in a world of astounding depth and detail – includes all new features, gameplay content and additional enhancements released since launch</p>
+
+ 
+</div>
+<br>
+   
+<br>
+   <div style="width: 100%;  margin-left: 100px; color: aliceblue; height: 100%;">
+        <h2>Specifications</h2><br><br>
+    </div>
+    <div style="width: 100%;  height: 100%; padding-top: 22px; ">
+
+    <div style="width: 50%;  margin-right: 100px; background-color:#262626;margin-left: 100px; border-radius: 15px;">
+      <table id="abc" class="about_inf" style="width: 100%; text-align: left; font-size: 10px;">
+          <tr><td>Minimum</td><td>Recommended</td>
+          <tr><td>Windows OS</td><td>Windows OS</td>
+          <tr><td>Windows 7 - Service Pack 1 (6.1.7601)</td><td>Windows 10 - April 2018 Update (v1803)</td>
+          <tr><td>Windows Processor</td><td>Windows Processor</td></tr>
+           <tr><td>Intel CPU Intel(R) Core(TM) i5-2500K / AMD FX-6300</td>
+           	<td>Intel CPU Intel(R) Core(TM) i7-4770K / AMD Ryzen 5 1500x</td>
+          <tr><td>Windows Memory</td><td>Windows Memory</td>
+            <tr><td>8GB</td><td>12GB</td>
+          <tr><td>Windows Storage</td><td>Windows Storage</td>
+            <tr><td>150GB</td><td>150GB</td>
+  
+                  <tr><td>Windows Graphics</td><td>Windows Graphics</td>
+            <tr><td>Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB</td><td> Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB</td>
+              
+                   <tr><td colspan="2">Languages Supported</td></tr>
+                <tr><td colspan="2">Voice: English Text: EnglishSimplified Chinese Traditional Chinese Portuguese ( Brazilian ) FrenchGermanItalian JapaneseKorean PolishRussian PortugueseSpanish (Spain ) Spanish (LATAM)</td></tr>
+        </table>
+      </div>
+    
+    </div>
+
+
+
+<br><br>
+
+    <div class="footerD">
+        <footer class="footerD">
+          
+          <div style="width: 100%; position: relative;padding-top: 30px;">
+            <div class="social-menu">
+              <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+  
+            <div style="width: 100%; height: 30px; padding-top: 50px;">
+              <marquee behavior="scroll" direction="right"><p class="inf">&copy; All rights reserved to RRA Productions</p></marquee>
+              </div>
+          </div>
+        </footer>
+      </div>
+    
+</body>
+</html>

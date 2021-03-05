@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body style="background-color: #121212;">
+
+    <div style=" width: 100%; position: fixed;  z-index: 1;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+            <div class="container-fluid" style="width: 10%;" >
+              <a class="navbar-brand" href="index.html">RRA</a>
+            </div>
+                <div class="navbar-nav justify-content-start" style="width: 80%;">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="products.html">Games</a>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="login&signup.html">Login</a></li>
+                      <li><a class="dropdown-item" href="login&signup.html">Sign Up</a></li>
+                    </ul>
+                  </li>
+                </div>
+             
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+                  </form>
+          </nav>
+    </div>
+
+
+  <div style="height: 100%;width: 50%; padding: 100px; position: relative; float: left; padding-top: 300px;">
+
+    <form>
+      <div class="row g-3">
+      <div class="form-floating mb-3 col">
+        <input type="text" class="form-control" id="First_name" placeholder="First Name">
+        <label for="First_name">First Name</label>
+      </div>
+      <div class="form-floating mb-3 col">
+        <input type="text" class="form-control" id="Last_name" placeholder="Last Name">
+        <label for="Last_name">Last Name</label>
+      </div>
+    </div>
+
+    <div class="row g-3">
+    <div class="form-floating mb-3 col">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+  </div>
+
+  <div class="row g-3">
+    <div class="form-floating mb-3 col">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+    <div class="form-floating mb-3 col">
+      <input type="password" class="form-control" id="floatingPassword2" placeholder="Reapet_Password">
+      <label for="floatingPassword2">Reapet Password</label>
+    </div>
+  </div>
+
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="Agree">
+    <label style="color: antiquewhite;" class="form-check-label" for="Agree">Agree to the terms</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign Up</button>
+
+    </form>
+    <br><br>
+	</div>
+	
+    <div style="height: 100%;width: 50%; padding: 100px; position: relative; float: right; padding-top: 300px;">
+    
+      <form>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <br>
+        
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="Remember_me">
+          <label style="color: antiquewhite;" class="form-check-label" for="Remember_me">Remember Me</label>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="alert_confirm()">Login</button><br>
+        <label for="" style="cursor: pointer; color:antiquewhite ; margin-top: 15px;" onclick="forg()"> Forgot password ?</label>
+      </form>
+
+      
+
+    </div>
+
+
+    <script>
+      function alert_confirm(){
+            
+            var check = confirm("Are You sure about this");
+            if(check == true){
+                
+                alert("Good Work");
+            }else if(check == false ){
+                alert("As you like")
+            }
+        }
+
+        function forg(){
+          var res = prompt("Enter your email to restore your password");
+          if(res!=null){
+            alert("An email has been sent to "+res+" to reset password")
+          }
+        }
+    </script>
+
+    
+
+    <div class="footerD">
+        <footer class="footerD">
+          
+          <div style="width: 100%; position: relative;padding-top: 30px;">
+            <div class="social-menu">
+              <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+  
+            <div style="width: 100%; height: 30px; padding-top: 50px;">
+              <marquee behavior="scroll" direction="right"><p class="inf">&copy; All rights reserved to RRA Productions</p></marquee>
+              </div>
+          </div>
+        </footer>
+      </div>
+    
+</body>
+</html>
